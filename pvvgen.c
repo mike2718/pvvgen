@@ -37,6 +37,12 @@ int main() {
             case 'W':
                 w[i] = 'M';
                 break;
+            case 'U':
+                w[i] = 'V';
+                break;
+            case 'V':
+                w[i] = 'U';
+                break;
             case 'l':
                 w[i] = '1';
                 break;

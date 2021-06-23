@@ -8,3 +8,6 @@ mike@DELL-PC:~/dev2/pvvgen$ pcc pvvgen.c -o pvvgen && ./pvvgen
 realDonaldTrump
 reA1D0naLb7RvmP
 ```
+## 参考
+
+* [StrongPasswords](https://help.ubuntu.com/community/StrongPasswords)
