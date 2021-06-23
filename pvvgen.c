@@ -7,7 +7,7 @@ int main() {
     scanf("%s", w);
     for(int i=0; w[i]!='\0'; i++)
     {
-        if(w[i+1]%3==0)
+        if((i+1)%3==0 && i>0)
         {
             w[i]=toupper(w[i]);
         }

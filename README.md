@@ -6,5 +6,5 @@
 mike@DELL-PC:~/dev2/pvvgen$ pcc pvvgen.c -o pvvgen && ./pvvgen
 请输入要转换的字符串并回车（英文）：
 realDonaldTrump
-reA1DonA1D7RumP
+reA1D0naLd7RumP
 ```
