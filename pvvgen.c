@@ -70,6 +70,9 @@ int main() {
             case 'v':
                 w[i] = 'u';
                 break;
+            case 's':
+                w[i] = '5';
+                break;
             default:
                 continue;
         }
