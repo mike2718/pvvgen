@@ -1,11 +1,18 @@
+// 部分参考了 https://help.ubuntu.com/community/StrongPasswords
 #include <stdio.h>
-
+#include <ctype.h>
 int main() {
-    int i;
     char w[100];
     printf("请输入要转换的字符串并回车（英文）：\n");
     scanf("%s", w);
-    for(i=0; w[i]!='\0'; i++)
+    for(int i=0; w[i]!='\0'; i++)
+    {
+        if(w[i+1]%3==0)
+        {
+            w[i]=toupper(w[i]);
+        }
+    }
+    for(int i=0; w[i]!='\0'; i++)
     {
         switch(w[i])
         {
