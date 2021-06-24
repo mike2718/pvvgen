@@ -34,6 +34,9 @@ int main() {
             case 'E':
                 w[i] = '3';
                 break;
+            case 'M':
+                w[i] = 'W';
+                break;
             case 'W':
                 w[i] = 'M';
                 break;
@@ -42,6 +45,9 @@ int main() {
                 break;
             case 'V':
                 w[i] = 'U';
+                break;
+            case 'D':
+                w[i] = 'a';
                 break;
             case 'l':
                 w[i] = '1';
@@ -53,7 +59,7 @@ int main() {
                 w[i] = '9';
                 break;
             case 'b':
-                w[i] = 'd';
+                w[i] = '6';
                 break;
             case 'd':
                 w[i] = 'b';
@@ -62,7 +68,7 @@ int main() {
                 w[i] = 'q';
                 break;
             case 'q':
-                w[i] = 'p';
+                w[i] = '9';
                 break;
             case 'u':
                 w[i] = 'v';
