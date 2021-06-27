@@ -13,7 +13,7 @@ wncitpfbitmoctis
 丢进去
 
 ```
-mike@DELL-PC:~/dev2/pvvgen$ pcc pvvgen.c -o pvvgen && ./pvvgen
+mike@DELL-PC:~/dev2/qwgen$ pcc qwgen.c -o qwgen && ./qwgen
 请输入要转换的字符串并回车（英文）：
 wncitpfbitmoctis
 wnC!tPfdItm0ctI5
